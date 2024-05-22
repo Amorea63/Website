@@ -1,0 +1,630 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+
+
+
+body{
+    background-image: url("./images/stars.jpg") ;
+    font-family: "Irish Grover", system-ui;
+}
+.home-page{ 
+    height: 80vh; width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    border: solid 4px black;
+    background-color: #FFD1EF;
+}
+.navbar{
+    background-color: white;
+    padding: 4vh 0vh 0vh 0vh;
+    display: flex;
+    border-bottom: solid 4px black;
+}
+.navitem{
+    padding: 2px 5px 2px 5px;
+    width: 10vw;
+    border: solid 3px black;
+    border-bottom: 0px;
+    border-top-right-radius: 20px 20px;
+    background-color: #636363;
+    color: white !important;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration:none;
+
+}
+
+a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .scroll {
+    width: 10px;
+    height: 100px;
+    overflow: auto;
+    float: right;
+    margin: 0 60px;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFD1EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+
+  }
+  .home-imgs{
+    height: 71vh;
+    width: 99.7%;
+    padding: .1vw;
+    overflow: auto;
+  }
+
+.navitem:hover{
+    scale: 1.15;
+    transform: translate( 4.85%,0%);
+}
+.info-page{
+    background-color: #FFD1EF;
+    height: 80vh; width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    border: solid 4px black;
+}
+.title{
+    font-size: 135px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 160px;
+}
+.topstar{
+    position: absolute;
+    margin-left: 1110px;
+    /* margin-top: 100px; */
+}
+.bttmstar{
+    position: absolute;
+    /* margin-left: 7px;
+    margin-top: 35px; */
+    bottom: 155px;
+}
+
+.profile-2{
+    position: absolute;
+}
+.info-navitem{
+    padding: 2px 5px 2px 5px;
+    width: 10vw;
+    border: solid 3px black;
+    border-bottom: 0px;
+    border-top-right-radius: 20px 20px;
+    background-color: #636363;
+    color: white !important;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.info-navitem:hover{
+    scale: 1.15;
+    transform: translate( 4.85%,0%);
+}
+.info-navbar{
+    background-color: white;
+    padding: 4vh 0vh 0vh 0vh;
+    display: flex;
+    border-bottom: solid 4px black;
+}
+.infotxt{
+    height: 290px;
+    width: 500px;
+    font-family: "Irish Grover", system-ui;
+    color: black;
+    font-size: 40px;
+    margin-right: 500px;
+    /* position:absolute; */
+    /* top:250px; */
+    background-image: url('./images/info-cloud.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.infostar{
+    position: absolute;
+    left: 315px;
+    top: 610px;
+}
+.info-profile{
+    position: absolute;
+    left: 550px;
+    top: 425px;
+}
+.scroll {
+    width: 10px;
+    height: 100px;
+    overflow: auto;
+    float: right;
+    margin: 0 60px;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFD1EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+
+  }
+
+  .imagecontainer{
+    display: flex;
+
+  }
+  .info-imgs{
+    height: 71vh;
+    width: 99.7%;
+    padding: .1vw;
+    overflow: auto;
+  }
+.gmail-c{
+    position: absolute;
+    right: 950px;
+    bottom: 150px;
+}
+.insta-c{
+    position: absolute;
+    right: 950px;
+    bottom: 550px;
+}
+.yt-c{
+    position: absolute;
+    right: 950px;
+    bottom: 350px;
+}
+.yt{
+    font-size: 29px;
+    height: 90px;
+    width: 90px;
+    background-image: url(./images/yt\ circle\ \(1\).png);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: -50px;
+}
+.ig{
+    font-size: 29px;
+    height: 90px;
+    width: 90px;
+    background-image: url(./images/ig\ circle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: 70px;
+}
+.gm{
+    font-size: 29px;
+    height: 90px;
+    width: 90px;
+    background-image: url(./images/gm\ circle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: 90px;
+}
+.yt-text{
+    font-size: 50px;
+    height: 5vh;
+    width: 280px;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: -38px;
+    color: black;
+}
+.ig-text{
+    font-size: 50px;
+    height: 15px;
+    width: 95px;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: 105px;
+    color: black;
+    /* margin-right: 15px; */
+}
+.gm-text{
+    font-size: 50px;
+    height: -1500px;
+    width: 90px;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: 175px;
+    color: black;
+    /* margin-right: 15px; */
+}
+.info-links{
+    color: black;
+}
+.abt-page{
+    background-color: #FFD1EF;
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    border: solid 4px black;
+}
+.abt-navbar{
+    background-color: white;
+    padding: 4vh 0vh 0vh 0vh;
+    display: flex;
+    border-bottom: solid 4px black;
+}
+.abt-navitem{
+    padding: 2px 5px 2px 5px;
+    width: 10vw;
+    border: solid 3px black;
+    border-bottom: 0px;
+    border-top-right-radius: 20px 20px;
+    background-color: #636363;
+    color: white !important;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.abt-navitem:hover{
+    scale: 1.15;
+    transform: translate( 4.85%,0%);
+}
+.aboutstar{
+    position: absolute;
+    margin-left: 1420px;
+    bottom: 615px;
+}
+.aboutstar-2{
+    position: absolute;
+    left: 315px;
+    top: 610px;
+}
+.scroll {
+    width: 10px;
+    height: 100px;
+    overflow: auto;
+    float: right;
+    margin: 0 60px;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFD1EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+  }
+  .about-imgs{
+    height: 71vh;
+    width: 99.7%;
+    padding: .1vw;
+    overflow: auto;
+    position: relative;
+  }
+.profile-1{
+    position: absolute;
+    bottom: 615px;
+    left: 350px;
+}
+.pro-page{
+    background-color: #FFD1EF;
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    border: solid 4px black;
+}
+.pro-navbar{
+    background-color: white;
+    padding: 4vh 0vh 0vh 0vh;
+    display: flex;
+    border-bottom: solid 4px black;
+}
+.pro-navitem{
+    padding: 2px 5px 2px 5px;
+    width: 10vw;
+    border: solid 3px black;
+    border-bottom: 0px;
+    border-top-right-radius: 20px 20px;
+    background-color: #636363;
+    color: white !important;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.pro-navitem:hover{
+    scale: 1.15;
+    transform: translate( 4.85%,0%);
+}
+.scroll {
+    width: 10px;
+    height: 100px;
+    overflow: auto;
+    float: right;
+    margin: 0 60px;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFD1EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+  }
+  .pro-imgs{
+    height: 65vh;
+    width: 99.7%;
+    padding: .1vw;
+    overflow: auto;
+    position: relative;
+  }
+  /* .pro-tstar{
+    position: absolute;
+    scale: .7px;
+    left: 1100px;
+    height: 250px;
+    width: 20%;
+}
+.pro-bstar{
+    position: absolute;
+    left: 315px;
+    top: 610px;
+} */
+  .pro-txt{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    width: 1296.550px;
+    height: 85px;
+  }
+.art-page{
+    background-color: #FFD1EF;
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    border: solid 4px black;
+}
+.art-navbar{
+    background-color: white;
+    padding: 4vh 0vh 0vh 0vh;
+    display: flex;
+    border-bottom: solid 4px black;
+}
+.art-navitem{
+    padding: 2px 5px 2px 5px;
+    width: 10vw;
+    border: solid 3px black;
+    border-bottom: 0px;
+    border-top-right-radius: 20px 20px;
+    background-color: #636363;
+    color: white !important;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.art-navitem:hover{
+    scale: 1.15;
+    transform: translate( 4.85%,0%);
+}
+.art-txt{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    width: 1296.550px;
+    height: 85px;
+}
+.scroll {
+    width: 10px;
+    height: 100px;
+    overflow: auto;
+    float: right;
+    margin: 0 60px;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFD1EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+  }
+  .art-imgs{
+    height: 63vh;
+    width: 99.7%;
+    padding: .1vw;
+    overflow: auto;
+    position: relative;
+  }
+  /* .art-tstar{
+    position: absolute;
+    scale: .7px;
+    left: 1100px;
+    height: 250px;
+    width: 99.7px;
+  } */
+  /* .art-bstar{
+    position: absolute;
+    scale: .7px;
+    width: 99.7px;
+    height:8px; 
+}
+  */
+/* .info-cloud{
+    position: absolute; 
+    margin-left: 150px;
+    margin-top: 100px;
+} */
+
+
+/* .container{
+  
+flex-direction: column;
+}
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    width: 98%;
+   position: absolute;
+top: 5%;
+left: 1%;
+}
+.navitem{
+    width: auto; 
+    border-right: solid 5px black;
+    font-family: "Irish Grover", system-ui;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+}
+
+.page{
+    height: 50vh;
+    width: 40vw;
+    font-family: "Irish Grover", system-ui;
+    color: black;
+    text-align:center;
+    font-size: 100px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.tstar{
+    position: absolute;
+    top: -2%;
+    right: -15%;
+    scale: 130%;
+    width: 13vw;
+    height: 19vh;
+}
+.bstar{
+    position: absolute;
+    bottom: -13%;
+    scale: 130%;
+    left: -15%;
+    width: 13vw;
+    height: 18vh;
+
+}
+.nhomepic{
+    position: absolute;
+    top: 6%;
+    left: -11%;
+    scale: 175%;
+}
+.tab1{
+    align-self: last baseline;
+    height: auto;
+    background-image: url("./images/main-tab.png");
+    color: white;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    height: 10vh;
+    background-repeat: no-repeat;
+    font-size: 38px;
+  }
+.tab2{
+    align-self: last baseline;
+    height: auto;
+    background-image: url("./images/Tab-1.png");
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    height: 3vh;
+    font-size: 18px;
+}
+.tab3{
+    align-self: last baseline;
+    height: auto;
+    background-image: url("./images/Tab-1.png");
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    height: 3vh;
+    font-size: 18px;
+}
+.tab4{
+    align-self: last baseline;
+    height: auto;
+    background-image: url("./images/Tab-1.png");
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 1vh;
+    padding-right: 6vh;
+    height: 3vh;
+    font-size: 18px;
+}
+.tab5{
+    align-self: last baseline;
+    height: auto; background-image: url("./images/Tab-1.png");
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 1vh;
+    padding-right: 8vh;
+    height: 3vh;
+    font-size: 15.5px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(241, 138, 219);
+    }
+
+  }
+  .infostar{
+    position: absolute;
+    bottom: 5%;
+    scale: 130%;
+    left: 4%;
+    width: 13vw;
+    height: 18vh;
+  }
+  .infotxt{
+    height: 39vh;
+    width: 65vw;
+    font-family: "Irish Grover", system-ui;
+    color: black;
+    font-size: 32px;
+    left: 11.25%;
+    position:absolute;
+    top:25%;
+}
+  .cloud{
+    position: absolute;
+    bottom: 65%;
+    scale: 100%;
+    left: 10%;
+    width: 20vw;
+    height: 15vh;
+} */
