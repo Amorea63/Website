@@ -189,6 +189,24 @@ a {
     right: 950px;
     bottom: 350px;
 }
+.l8-c{
+ position: absolute;
+    right: 950px;
+    bottom: 850px;
+}
+.l8{
+  font-size: 19px;
+    height: 90px;
+    width: 90px;
+    background-image: url(./images/l8\ circle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: -580px;
+}
 .yt{
     font-size: 29px;
     height: 90px;
@@ -227,6 +245,15 @@ a {
     justify-content: center;
     margin-left: 670px;
     margin-top: 90px;
+}
+.l8-text{
+  font-size: 50px;
+    height: 5vh;
+    width: 280px;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: -555px;
+    color: black;
 }
 .yt-text{
     font-size: 50px;
@@ -289,6 +316,15 @@ a {
 .abt-navitem:hover{
     scale: 1.15;
     transform: translate( 4.85%,0%);
+}
+.abt-text{
+  background-color: white;
+  width: 38vw;
+  height: 55vh;
+  position: absolute;
+  right: 590px;
+  bottom: 200px;
+  font-size: 40px;
 }
 .aboutstar{
     position: absolute;
