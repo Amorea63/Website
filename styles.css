@@ -9,6 +9,39 @@ body{
     background-image: url("./images/stars.jpg") ;
     font-family: "Irish Grover", system-ui;
 }
+@media only screen and (max-width:600px) {
+  .home-page{
+    font-family: "Irish Grover", system-ui;
+    width: 100%;
+    background-color: rgb(176, 238, 217);
+  }
+}
+@media only screen and (min-width:600px){
+  .home-page {
+    background-image: url("./images/stars.jpg") ;
+    width: 95%;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home-page {
+    background-image: url("./images/stars.jpg") ;
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home-page {
+    background-image: url("./images/stars.jpg") ;
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-page {
+    background-image: url("./images/stars.jpg") ;
+    width: 100%;
+  }
+}
+/* 600px,601px,768px,992px,1200px */
 .home-page{ 
     height: 80vh; width: 70%;
     margin: auto;
